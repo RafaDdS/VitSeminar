@@ -8,12 +8,16 @@
 
 ## How to Run
 This repository includes 3 files.
+
 ImageIdentifier.py - Simple example using Hugging Face's interface.
+
 DeepDive.Py - Based in the Blog post previously cited, It is a step by step manual calculation of the Vit layers
+
 AttentionRollout.py - Adicional example of Attention Rollout discussed 
 
 ### Prerequisites
 Python 3.12
+
 venv
 
 ### Setup
