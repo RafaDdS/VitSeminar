@@ -1,24 +1,17 @@
 import torch
-from torch import nn, optim
 import torch.nn.functional as F
 
-import torchvision
 from torchvision.transforms import Compose, Resize, CenterCrop, Normalize, ToTensor
 
 from timm.models import create_model
 
-import PIL
 from PIL import Image
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-import requests
 
 from tqdm.auto import tqdm
-import os
-import warnings
 
-import timm
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print(f"Device: {device}")
